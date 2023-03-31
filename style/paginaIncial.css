@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #ff9900c2;
+}
+
+nav {   
+    display: flex;
+    background-color: black;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+
+ul:first-child {
+    margin-left: 34%;
+}
+
+
+
+nav > ul > li {
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    cursor: pointer;
+}
+
+button {
+    background-color: #FF7063;
+    height: 5.5vh;
+    width: 6.5vw;
+    font-size: 17pt;
+    color: white;
+    border: solid 1px rgb(73, 73, 73);
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+ul:last-of-type {
+    margin: 0% 6% 0% 0%;
+}
+
+main {
+    margin: 6% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    gap: 10px;
+    width: 17vw;
+    height: 55vh;
+    color: white;
+    padding-top: 0.5%;
+    font-size: x-large;
+    background-color: rgb(252, 246, 246);
+    border: solid 2px black;
+    transition: 0.7s;
+}
+
+#sabordasemana {
+    background-color: #000000;
+}
+
+#eventos {
+    background-color: #ff5e00a2;
+}
+
+#sobremesa {
+    color: white;
+    background-image: linear-gradient(to left, rgb(252, 248, 2) 20%, rgb(18, 159, 224))
+}
+
+#sabordasemana:hover, #eventos:hover, #sobremesa:hover {
+    cursor: pointer;
+    transform: translateY(-40px);
+}
+
+.lados {
+    position: fixed;
+    width: 8vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#lado2 {
+    position: fixed;
+    background-color: #000000;
+    margin: 0% 0% 0% 93%;
+    z-index: -1;
+}
+
+.infos {
+    color: #000000;
+    transition: 0.5s;
+    position: absolute;
+    width: 17vw;
+    height: 60vh;
+    border-radius: 10px;
+    opacity: 0;
+    margin: -5% 0% 0% 0%;
+    text-align: center;
+    padding: 0%;
+    font-size: 18pt;
+}
+
+#info1 {
+    color: white;
+    background-color: #000000;
+}
+
+#info2 {
+    background-image: linear-gradient(to top, rgb(252, 248, 2) 20%, rgb(18, 159, 224))
+}
+
+#info2 > ul {
+    text-align: start;
+    display: block;
+}
+
+#info3 {
+    background-image:linear-gradient(to top, rgb(252, 248, 2) 40%, orange) ;
+}
+
+@media only screen and (max-width:1360px) {
+    button {
+        width: fit-content;
+    }
+    ul:first-child {
+        margin-left: 20%;
+    }
+}
