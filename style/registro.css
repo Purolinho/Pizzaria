@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ff9900c2;
+}
+
+img {
+    position: absolute;
+    width: 200px;
+    margin-left: 44.5%;
+    margin-top: -9%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+    margin: 10% auto 0%;
+    font-size: x-large;
+    border: 2px solid black;
+    align-items: center;
+    padding: 1%;
+    gap: 4px;
+    background-image:linear-gradient(to top, rgba(252, 248, 2, 0.507) 20%, orange);
+}
+
+main > input {
+    color: white;
+    background-color: black;
+    width: 15vw;
+    height: 3vh;
+}
+
+button {
+    margin-top: 4%;
+    cursor: pointer;
+    background-color: rgb(240, 236, 1);
+    border-color: rgb(0, 0, 0);
+    color: black;
+    width: 10vw;
+    height: 4.5vh;
+    font-size: large;
+    border-radius: 10px;
+}

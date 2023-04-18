@@ -9,12 +9,17 @@ body {
 }
 
 main {
-    margin-top: 1%;
+    margin-top: 0%;
     text-align: center;
+    border: 2px solid black;
+    width: 20vw;
+    padding: 0.5%;
+    margin: auto;
+    background-image:linear-gradient(to top, rgba(252, 248, 2, 0.507) 20%, orange);
 }
 
 img {
-    margin: 5% 0% 0% 45%;
+    margin: 5% 0% 0% 43.9%;
 }
 
 input {
@@ -34,6 +39,20 @@ label:last-of-type > input:last-of-type {
 
 a {
     font-size: 17pt;
+}
+
+.lados {
+    position: fixed;
+    width: 12vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#lado2 {
+    position: fixed;
+    background-color: #000000;
+    margin: 0% 0% 0% 90%;
+    z-index: -1;
 }
 
 button {

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+    background-color: #ff9900c2;
+}
+
+nav {   
+    display: flex;
+    background-color: black;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+}
+
+ul:first-child {
+    margin-left: 34%;
+}
+
+
+
+nav > ul > li {
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    cursor: pointer;
+}
+
+button {
+    background-color: #FF7063;
+    height: 5.5vh;
+    width: 6.5vw;
+    font-size: 17pt;
+    color: white;
+    border: solid 1px rgb(73, 73, 73);
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+ul:last-of-type {
+    margin: 0% 6% 0% 0%;
+}
+
+.lados {
+    position: fixed;
+    width: 8vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#lado2 {
+    position: fixed;
+    background-color: #000000;
+    margin: 0% 0% 0% 93%;
+    z-index: -1;
+}
+
+main {
+    background-image: linear-gradient(to left, #FF7063, orange );
+    margin: 0% 8%;
+    width: 83vw;
+    height: 85vh;
+    display: flex;
+    padding: 1% 1.5%;
+    font-size: 16pt;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pizzas {
+    width:250px;
+    height: 230px;
+    border: solid black 3px;
+}
+
+.itens {
+    align-items: start;
+    flex-direction: column;
+    width: 18vw;
+    gap: 7px;
+}
+
+#linha1 {
+    display: flex;
+    gap: 270px;
+}
+
+#linha2 {
+    display: flex;
+    gap: 270px;
+}

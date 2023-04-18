@@ -2,6 +2,10 @@ var logar = document.getElementById("logar").addEventListener("click", () => {
     location.href = "/trabalho teo/html/login.html"
 })
 
+var registrar = document.getElementById("registrar").addEventListener("click", () => {
+    location.href = "/trabalho teo/html/registro.html"
+})
+
 var evento = document.getElementById("eventos")
 var info3 = document.getElementById("info3")
 

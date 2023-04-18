@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+header {
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #ff9900c2;
+}
+
+main {
+    margin: 3% auto 0%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid black;
+    padding: 0.9%;
+}
+
+.mesas {
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    border: solid black 2px;
+}
+
+ul {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+#menu {
+    margin: 1% auto 0%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    align-items: center;
+}
+
+#menu > input {
+    width: 15vw;
+}

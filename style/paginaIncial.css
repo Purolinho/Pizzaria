@@ -96,6 +96,11 @@ main {
     transform: translateY(-40px);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .lados {
     position: fixed;
     width: 8vw;
